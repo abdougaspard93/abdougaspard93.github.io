@@ -7,7 +7,7 @@ body  {
   line-height: 140%;
   margin: 30px;
   background-image: url("page-bg.gif");
-background-position:
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #F7F3DE;
 
@@ -19,6 +19,7 @@ header {
  padding: 40px 120px;
  background-image: url("header-image-1.gif");
  background-position:left top;
+ background-repeat: no-repeat;
 
 
 }

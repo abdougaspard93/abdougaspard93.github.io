@@ -57,3 +57,8 @@ nav a:hover {
   margin-left: 160px;
   padding: 10px;
 }
+
+footer {
+  clear: both;
+  text-align: center;
+}

@@ -98,3 +98,7 @@ a {
   color: #7C1A00;
   font-weight: bold;
 }
+
+a:hover {
+  background-color:  #FFE597;
+}

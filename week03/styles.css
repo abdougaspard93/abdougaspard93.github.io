@@ -78,3 +78,10 @@ h2 {
   padding-left: 5px;
 
 }
+
+h3 {
+  background-image: url("header-star.gif");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+
+}

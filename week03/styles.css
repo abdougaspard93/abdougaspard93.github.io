@@ -62,3 +62,8 @@ footer {
   clear: both;
   text-align: center;
 }
+
+footer li {
+  display: inline;
+  padding: 10px;
+}

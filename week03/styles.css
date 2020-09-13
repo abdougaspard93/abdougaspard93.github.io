@@ -89,3 +89,12 @@ h3 {
 blockquote {
   background-color: #FFE597;
 }
+
+ul {
+  list-style-type: square;
+}
+
+a {
+  color: #7C1A00;
+  font-weight: bold;
+}

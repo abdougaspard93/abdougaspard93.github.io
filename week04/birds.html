@@ -1,51 +1,113 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Birdwatching</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Cinzel+Decorative:700" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-    <header>
-      </head>
-      <h1>Birdwatching</h1>
-      <img src="dove.png" alt="a simple dove logo">
-    </header>
-
-    <ul>
-        <li><span>Home</span></li>
-        <li><a href="#">Get started</a></li>
-        <li><a href="#">Photos</a></li>
-        <li><a href="#">Gear</a></li>
-        <li><a href="#">Forum</a></li>
-      </ul>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<body>
 
 
-      <h2>Welcome</h2>
+<header>
 
-      <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people.</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10">
+        <div class="row"><br><br></div>
+        <div class="row"><h1 class="text-center">BIRDWATChing</h1></div>
+        <div class="row"><br><br></div>
+      </div>
+      <div class="col-sm-2">
+        <img src="dove.png" alt="a simple dove logo">
+      </div>
+    </div>
 
+    <div class="row">
+
+    </div>
+
+
+    <nav >
+
+
+      <div class="col-sm-1"></div>
+      <a class="col-sm-2">
+        <p>HOME</p>
+      </a>
+      <a class="col-sm-2">
+        <p>GET STARTED</p>
+      </a>
+      <a class="col-sm-2">
+        <p>PHOTOS</p>
+      </a>
+      <div class="col-sm-2">
+        <p>GEAR</p>
+      </div>
+      <div class="col-sm-2">
+        <p>FORUM</p>
+      </div>
+      <div class="col-sm-1"></div>
+
+    </nav>
+
+  </div>
+
+</header>
+
+<section>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-8 article">
+      <h2 class="text-center">WELCOME</h2>
+      <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people</p>
       <p>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
+    </div>
 
-      <h2>Favourite photos</h2>
+<aside>
+    <div class="col-sm-4 aside">
+      <div class="row">
+        <h2 class="text-center">FAVORITE PICTURES</h2>
+      </div>
+      <div class="row">
+          <div class="col-sm-6">
+              <a href="favorite-1.jpg"  class="aside_a"><img src="favorite-1_th.jpg" class="aside_img" alt="Small black bird, black claws, long black slender beak, links to larger version of the image"></a>
+          </div>
+          <div class="col-sm-6">
+              <a href="favorite-2.jpg"  class="aside_a"><img src="favorite-2_th.jpg" class="aside_img" alt="Top half of a pretty bird with bright blue plumage on neck, light colored beak, blue headdress, links to larger version of the image"></a>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-6">
+              <a href="favorite-3.jpg"  class="aside_a"><img class="aside_img" src="favorite-3_th.jpg" alt="Top half of a large bird with white plumage, very long curved narrow light colored break, links to larger version of the image"></a>
 
-      <a href="favorite-1.jpg"><img src="favorite-1_th.jpg" alt="Small black bird, black claws, long black slender beak, links to larger version of the image"></a>
-      <a href="favorite-2.jpg"><img src="favorite-2_th.jpg" alt="Top half of a pretty bird with bright blue plumage on neck, light colored beak, blue headdress, links to larger version of the image"></a>
-      <a href="favorite-3.jpg"><img src="favorite-3_th.jpg" alt="Top half of a large bird with white plumage, very long curved narrow light colored break, links to larger version of the image"></a>
-      <a href="favorite-4.jpg"><img src="favorite-4_th.jpg" alt="Large bird, mostly white plumage with black plumage on back and rear, long straight white beak, links to larger version of the image"></a>
+          </div>
+          <div class="col-sm-6">
+              <a href="favorite-4.jpg" class="aside_a"><img src="favorite-4_th.jpg" class="aside_img" alt="Large bird, mostly white plumage with black plumage on back and rear, long straight white beak, links to larger version of the image"></a>
+          </div>
+      </div>
 
 
-      <p>This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.</p>
+    </div>
+</aside>
+
+  </div>
+
+
+</div>
+</section>
+
+<footer>
+  <p>This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.</p>
 
       <p><a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a> by Lorc.</p>
 
-  </body>
+
+ </footer>
+
+</body>
 </html>
